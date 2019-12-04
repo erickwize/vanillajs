@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px 25px;
+    height: 4000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body h1 {
+    text-align: center;
+}
+
+div.container {
+    overflow-y: auto;
+    height: 400px;
+}
+
+div.container table thead th {
+    position: sticky;
+    top: 0;
+}
+
+td, th {
+    padding: 5px 20px;
+}
+
+tbody td:nth-child(2) {
+    font-weight: 700;
+}
+
+table thead th {
+    text-align: center;
+    background-color: #3CE598;
+    color: #FFF;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #DFDFDF;
+}
+
+table thead th:nth-child(1),
+table tbody td:nth-child(1) {
+    width: 3.5em;
+    text-align: center;
+}

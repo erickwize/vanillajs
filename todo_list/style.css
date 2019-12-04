@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.3);
+}
+
+form > div.clear {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+form > h1 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+form > ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li, 
+li > input, 
+li > label {
+    cursor: pointer;
+}
+
+li {
+    padding: 10px;
+}
+
+li > label {
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+body {
+    background: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+ul {
+    background-color: rgb(255, 255, 255, 0.8);
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0px;
+}
+
+ul > li {
+    min-width: 70vw;
+    padding: 15px 20px;
+}
+
+ul > li:not(:last-child) {
+    border-bottom: 1px solid #EFEFEF;
+}

@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body div.key {
+    width: 100px;
+    border: 3px solid black;
+    text-align: center;
+    margin: 0px 10px;
+    transition-property: all;
+    transition-duration: 0.07s;
+    background-color: rgb(0,0,0,0.5);
+}
+
+body div.key h1 {
+    color: white;
+}
+
+body div.key p {
+    color: #E3C553;
+    text-transform: uppercase;
+}
+
+body div.key.playing {
+    transform: scale(1.1);
+    border: 3px solid #E3C553;
+    box-shadow: 0px 0px 10px #FFC600;
+}
